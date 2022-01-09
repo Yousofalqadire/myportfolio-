@@ -97,17 +97,7 @@ namespace api
             
         }
 
-//     private void CheckSameSite(HttpContext httpContext, CookieOptions options)
-// {
-// 	if (options.SameSite == SameSiteMode.None)
-// 	{
-// 		var userAgent = httpContext.Request.Headers["User-Agent"].ToString();
-// 		if (userAgent ==  "someoldbroswer")
-// 		{
-// 			options.SameSite = SameSiteMode.Unspecified;
-// 		}
-// 	}
-// }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -123,7 +113,7 @@ namespace api
 
             app.UseRouting();
 
-           app.UseCors(x=> x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+           app.UseCors(x=> x.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:5001","http://localhost:4200"));
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseDefaultFiles();
@@ -134,6 +124,7 @@ namespace api
                     name:"api",
                     pattern:"{controller}/{action}/{id?}"
                 );
+                endpoints.MapFallbackToController("Index","FallBack");
             });
         }
 
