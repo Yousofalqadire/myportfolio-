@@ -78,3 +78,5 @@ F:\portofoilo\api\bin\Debug\net5.0\Data\seedData\tutorial.json
 F:\portofoilo\api\bin\Debug\net5.0\AutoMapper.dll
 F:\portofoilo\api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 F:\portofoilo\api\bin\Debug\net5.0\Data\seedData\homeworks.json
+F:\portofoilo\api\bin\Debug\net5.0\Npgsql.dll
+F:\portofoilo\api\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
