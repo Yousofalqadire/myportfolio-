@@ -10,8 +10,8 @@ using api.Data;
 namespace api.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220109034820_initial_data")]
-    partial class initial_data
+    [Migration("20220112112210_initial_cateloge")]
+    partial class initial_cateloge
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

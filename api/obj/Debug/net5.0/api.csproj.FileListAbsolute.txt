@@ -78,5 +78,4 @@ F:\portofoilo\api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInj
 F:\portofoilo\api\bin\Debug\net5.0\Data\seedData\homeworks.json
 F:\portofoilo\api\bin\Debug\net5.0\Npgsql.dll
 F:\portofoilo\api\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-F:\portofoilo\api\bin\Debug\net5.0\api.StaticWebAssets.xml
 F:\portofoilo\api\obj\Debug\net5.0\api.csproj.AssemblyReference.cache
