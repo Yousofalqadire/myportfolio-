@@ -10,8 +10,8 @@ using api.Data;
 namespace api.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220109034820_initial_data")]
-    partial class initial_data
+    [Migration("20220524155844_init_data")]
+    partial class init_data
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -232,6 +232,9 @@ namespace api.Data.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("FileUrl")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
                         .HasColumnType("text");
 
                     b.HasKey("Id");

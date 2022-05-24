@@ -18,7 +18,7 @@ namespace api.Reposetory
 
         public  async Task<HomeWork> AddHomeWorkAsync(HomeWork homeWork)
         {
-            var result = new HomeWork{Date= homeWork.Date, FileUrl = homeWork.FileUrl};
+            var result = new HomeWork{Date= homeWork.Date, FileUrl = homeWork.FileUrl,Name = homeWork.Name};
             await db.HomeWorks.AddAsync(result);
             await db.SaveChangesAsync();
             return result;

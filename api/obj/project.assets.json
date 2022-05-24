@@ -3022,11 +3022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\portofoilo\\api\\api.csproj",
+      "projectUniqueName": "E:\\portofoilo\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "F:\\portofoilo\\api\\api.csproj",
+      "projectPath": "E:\\portofoilo\\api\\api.csproj",
       "packagesPath": "C:\\Users\\Discovery PC\\.nuget\\packages\\",
-      "outputPath": "F:\\portofoilo\\api\\obj\\",
+      "outputPath": "E:\\portofoilo\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Discovery PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3118,6 +3118,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3126,7 +3132,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0KgiKfj57vA7Px1WnrXIxkjed1w63WIHkaCLrS0514IwQS6u2bD1XA//nOLLRtx1owIVCgnvLqZfDHiT45nJMQ==",
+  "dgSpecHash": "ChnNCUfV5Be4eQp7Z3SRxj0oknx4cKhmrj5n0Q/Wpypesv4gFtWSZjZR44hOZsMONNBwNk+KuAvzKYkP+ejojQ==",
   "success": true,
-  "projectFilePath": "F:\\portofoilo\\api\\api.csproj",
+  "projectFilePath": "E:\\portofoilo\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Discovery PC\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Discovery PC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -91,7 +91,8 @@
     "C:\\Users\\Discovery PC\\.nuget\\packages\\system.security.cryptography.xml\\4.5.0\\system.security.cryptography.xml.4.5.0.nupkg.sha512",
     "C:\\Users\\Discovery PC\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
     "C:\\Users\\Discovery PC\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
-    "C:\\Users\\Discovery PC\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\Discovery PC\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\Discovery PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }
